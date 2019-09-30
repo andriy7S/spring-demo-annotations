@@ -24,8 +24,7 @@ public class TennisCoach implements Coach {
 	@PostConstruct
 	public void doMyStartupStuff() {
 		System.out.println(">> TennisCoach inside of doMyStartupStuff()");
-	}
-	
+	}	
 	// define my destroy method
 	@PreDestroy
 	public void doMyCleanupStuff() {
